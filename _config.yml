@@ -1,0 +1,35 @@
+title: Darren Yao's website
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Darren Yao # add your name
+author-img: pfp415.png # add your photo
+about-author: Hi, I'm Darren, currently a senior at Carlmont High School interested in mathematics and computer science. # add description
+social-twitter: DarrenYao5
+social-facebook: # add your Facebook handle
+social-github: darren-yao # add your Github handle
+social-linkedin: darren-yao # add your Linkedin handle
+social-email: darren.yao@gmail.com # add your Email address
+
+# Tracker
+analytics: UA-168722146-1
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-redirect-from
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
