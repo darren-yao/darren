@@ -28,6 +28,8 @@ layout: main
 <li><a href="http://darrenyao.com/expository-papers/covertimes.pdf">Cover Times of Random Walks</a></li>
 </ul>
 
+{% include pagination.html %}
+
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
@@ -42,5 +44,3 @@ layout: main
   </div>
 </article>
 {% endfor %}
-
-{% include pagination.html %}
