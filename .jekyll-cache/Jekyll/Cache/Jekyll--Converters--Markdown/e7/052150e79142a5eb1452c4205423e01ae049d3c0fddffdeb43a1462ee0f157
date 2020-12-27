@@ -1,0 +1,99 @@
+I"�/<h3 id="some-frequently-and-not-so-frequently-asked-questions-about-the-usa-computing-olympiad">Some frequently (and not-so-frequently) asked questions about the USA Computing Olympiad.</h3>
+
+<p>Hello, everyone!</p>
+
+<p>My name is Darren Yao, and I’m a current competitor in the USACO Platinum division (top ~200 US). I’m also the author of the book An Introduction to the USA Computing Olympiad, a core contributer to the USACO Guide and CPI projects, among other things.</p>
+
+<p>Recently, I’ve received a number of questions along the lines of “how do I get better at programming contests?,” or “how do I achieve X rank in Y time,” from beginners. Anyway, due to the drastic increase in new competitors I’m seeing lately, I decided to write some articles on programming olympiads, perhaps as a programming counterpart to Evan Chen’s math blog, because I think it’d be helpful. 
+By far the most common question I receive is “can I get from beginner level to Platinum in a year?” I mostly get this from beginners, and probably as a result of the fact that quarantine killed most people’s extracurricular activities, so they’re looking for some resume padding for their college applications. To answer the question: yes, it’s possible (I did it in eight months). However, if you really want to do this, you’ll need to be extremely dedicated and productive. Furthermore, you should know that if you’re only doing programming competitions out of a desire to look good on college applications, and don’t actually enjoy the process, you will likely burn out and end up nowhere. Consider yourself warned.</p>
+
+<p>Welcome to the world of competitive programming! I’m going to start off by reiterating a phrase seen often on AoPS: stop looking for the “right” training. There certainly does not exist a method that will guarantee you X rank in Y amount of time, because as with all contests, there are other factors involved: luck, innate talent, efficiency and productivity of your training time, and so forth. Most importantly, everyone learns differently, and your training should be structured around your own strengths and weaknesses so that it fits you. That being said, I’m going to provide some useful resources below. Readers are encouraged to use their best judgement and skip around the books or go through chapters faster or slower as they see fit; in the end, it is up to you to make your own learning effective.</p>
+
+<p>Now let’s get to the actual FAQ:</p>
+
+<h3 id="how-do-i-prepare-for-usaco">How do I prepare for USACO?</h3>
+
+<p>Short answer: Learn algorithms, do practice problems, and reflect on why you’re missing problems. Make sure you learn from every problem you do, and you’ll improve over time.</p>
+
+<p>Long answer: read the rest of this article.</p>
+
+<h3 id="what-language-should-i-use">What language should I use?</h3>
+
+<p>USACO supports five languages: C, C++, Java, Pascal, and Python. Firstly, nobody uses Pascal, and C is a strictly inferior version of C++ so you shouldn’t use either of them. Now, for the three languages that actually get used:
+Python is the easiest to learn, but it also runs slowly, which is often problematic despite the longer runtime. USACO problemsetters have stated that they don’t test Python solutions, and many problems are simply impossible to pass in Python.</p>
+
+<p>C++ is the most commonly used language, and for good reason; it runs the fastest, and code is short. C++ also has macros, defines, and other similar things for shortening code (although often at the expense of readability…) It also has a standard library containing many data structures that you’ll use often.</p>
+
+<p>Java is also commonly used. It runs slower than C++, but is given a longer runtime. Java runtime generally isn’t too much of an issue, even at higher levels of competition (A member of the 2020 USA IOI team uses Java). Its standard library is very similar to that of C++. Java code, however, tends to be rather verbose. I prefer Java for several reasons: it’s very intuitive, debugging is easy, and its behavior is more consistent (C++ ordered set upper and lower bound functions: one of them is inclusive and one of them is exclusive, while in Java both are exclusive).</p>
+
+<h3 id="what-resources-should-i-use">What resources should I use?</h3>
+
+<p>If you don’t know how to code, you need to learn that first; this should be pretty easy to do from resources available online. The two primary languages used in competition are C++ and Java; C++ code is shorter, runs faster and is thus favored by the majority of contestants, but Java is granted extra runtime on the USACO to compensate and I personally find it more intuitive and easier to debug. At the high platinum and camp levels, using C++ is an advantage, but Java still remains viable. Python generally is not an acceptable language due to its slow runtime.</p>
+
+<p>A solid background in competition math can make the learning curve easier, because you’ve already developed the intuition needed to solve problems. This generally allows you to get through bronze material very quickly, and also speeds up the learning of more advanced concepts. That being said, the advantage you gain from having previously done competition math is diminishing – USACO wants to make Platinum qualification a major goal in and of itself, rather than a mere side-quest for the math contest elite.</p>
+
+<p>At the bronze and silver level, you should read my book An Introduction to the USA Computing Olympiad, and do the accompanying practice problems at the end of each chapter. Links are below:</p>
+
+<p><a href="https://darrenyao.com/usacobook/java.pdf">Intro to USACO, Java Edition</a></p>
+
+<p><a href="https://darrenyao.com/usacobook/cpp.pdf">Intro to USACO, C++ Edition</a></p>
+
+<p>There’s also <a href="https://usaco.guide/">USACO Guide</a>, which is a free collection of curated, high-quality resources covering topics from all four divisions.</p>
+
+<p>For additional practice, CodeForces has an extensive selection of problems, sorted by rating, topic, or pretty much any other criterion you can think of.</p>
+
+<h3 id="im-stuck-where-can-i-get-help">I’m stuck. Where can I get help?</h3>
+
+<p>Asking in the (unofficial) <a href="discord.gg/bessMBe">USACO Discord Server</a> is probably a good place to start. We have channels called #cp-discussion and #cp-help specifically dedicated to questions about competitive programming.</p>
+
+<p>When should I read the solution?</p>
+
+<p>In general, I think it’s fine to read the solution relatively early on, as long as you’ve made several different attempts at it and you can learn effectively from the solution.</p>
+
+<p>On a bronze problem, read the solution after 15-20 minutes of no meaningful progress, after you’ve exhausted every idea you can think of.</p>
+
+<p>On a silver problem, read the solution after 30-40 minutes of no meaningful progress.</p>
+
+<p>When you get stuck and consult the solution, you don’t necessarily need to read the entire solution at once, and you certainly shouldn’t look at the solution code. Instead, it’s better to read the solution step by step until you get unstuck, at which point you should go back and finish the problem, and implement it yourself. Reading the full solution or its code should be seen as a last resort.</p>
+
+<p>Problems that you practice with should be of the appropriate difficulty. You don’t necessarily need to complete all the exercises at the end of each chapter, just do what you think is right for you. A problem at the right level of difficulty should be one of two types: either you struggle with the problem for a while before coming up with a working solution, or you miss it slightly and need to consult the solution for some small part. If you instantly come up with the solution, a problem is likely too easy, and if you’re missing multiple steps, it might be too hard.</p>
+
+<h3 id="should-i-implement-every-problem-that-i-solve">Should I implement every problem that I solve?</h3>
+
+<p>Usually, yes. Solving competitive programming problems consists of two parts: coming up with the algorithm, and implementing the algorithm. You should implement so that you practice both parts.</p>
+
+<h3 id="can-you-solve-x-problem-for-me">Can you solve X problem for me?</h3>
+
+<p>I might sometimes answer questions on the USACO server, but I do tend to be rather busy. If you ask there, you’re likely to find someone who can help you.</p>
+
+<h3 id="is-it-possible-to-go-from-x-division-to-y-division-in-z-amount-of-time">Is it possible to go from X division to Y division in Z amount of time?</h3>
+
+<p>I don’t know, only you can answer this question. It depends on the amount of hours you put in, how effective your practice time is, and other factors that I probably don’t know about you.
+What topics do I need to know for each of the USACO divisions?</p>
+
+<p>Copied and pasted from a previous post.</p>
+
+<ul>
+  <li>Bronze: Simulation, brute force/complete search, implementation, intersections of 2 and 3 squares, ad-hoc problems. The general focus of the Bronze division is not on any specific techniques, but rather basic algorithmic thinking, mastery of your chosen programming language, and intuition and ability to think through problems.</li>
+  <li>Silver: Sorting, prefix sums, binary search, graph theory, standard library data structures, implementation, ad-hoc problems. The main theme of the Silver division is applications of relatively simple algorithms. However, just because the algorithms themselves are relatively simple does not make the problems easy; in fact, silver problems require a lot of ingenuity, which makes passing silver a major bottleneck for many. Again, this is where practice comes in – once you’ve done enough problems, you get much better at recognizing how you should attack any given problem.</li>
+  <li>Gold: More graph theory (shortest-path algorithms, minimum spanning tree), tree algorithms, dynamic programming, data structures (Fenwick tree, possibly segment tree), topological sort, combinatorics (PIE) and number theory. Gold features a much wider breadth of material than silver. The main thing you’ll need to pass gold is knowledge of all the algorithms, and extensive practice.</li>
+  <li>Platinum: The topics that show up on platinum contests aren’t particularly well defined, and there is essentially no upper limit on problem difficulty. Anything is fair game (including topics explicitly banned from IOI, like heavy-light decomposition)</li>
+</ul>
+
+<h3 id="what-codeforces-rating-corresponds-to-each-of-the-usaco-divisions">What CodeForces rating corresponds to each of the USACO divisions?</h3>
+
+<p>This is my subjective opinion, and others may feel differently. The reason why problem ratings differ from user ratings, is because CF emphasizes solving problems quickly (6-8 problems under 2 hours time constraint), while USACO has harder problems and more time (3 problems in 4-5 hours).</p>
+
+<ul>
+  <li>USACO Bronze users are probably &lt;1400 rated on CF, and Bronze problems correspond to 900-1500 rated CF problems.</li>
+  <li>USACO Silver users are probably 1300-1600 rated on CF, and Silver problems correspond to 1200-1900 rated CF problems.</li>
+  <li>USACO Gold users are probably 1600-1900 rated on CF, and Gold problems correspond to 1500-2200 rated CF problems.</li>
+  <li>USACO Platinum users are probably 1750+ rated on CF, and Platinum problems correspond to 1900+ rated CF problems.</li>
+</ul>
+
+<h3 id="some-final-notes">Some Final Notes</h3>
+
+<p><a href="https://web.evanchen.cc/FAQs/raqs.html">This</a> and <a href="https://usamo.wordpress.com/2019/01/31/math-contest-platitudes-v3/">this</a> are two blog posts by Evan Chen that I find quite insightful. They discuss such things as time management, the problem-solving process, and other tips that you may find useful.
+There is also a USACO Discord Server (not affiliated with the USACO organization) for such purposes as post-contest discussion, and asking for help.
+I think this is all that I wanted to say, so I’ll leave off here. Best of luck!</p>
+:ET
