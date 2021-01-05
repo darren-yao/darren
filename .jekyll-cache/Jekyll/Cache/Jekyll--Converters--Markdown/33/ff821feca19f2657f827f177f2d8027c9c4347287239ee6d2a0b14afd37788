@@ -1,0 +1,20 @@
+I"<h2 id="the-causes-of-olympiad-difficulty-inflation">The Causes of Olympiad Difficulty Inflation</h2>
+
+<p>It’s a well known fact that olympiads get harder over time. The rate of difficulty inflation varies, but it always happens.</p>
+
+<p>For example, see Problem 1 from the first International Math Olympiad in 1959.</p>
+
+<p>Prove that this fraction is irreducible for every natural number \(n\): \[ \frac{21n+4}{14n+3} \]</p>
+
+<p>If you know the Euclidean algorithm, this problem takes about 30 seconds to solve. This is much easier than a midrange AMC 12 question now, and the AMC 12 is an open exam that doesn’t require you to be in the top 6 of your country to take it.</p>
+
+<p>At least in math, the increase in difficulty happens slowly and gradually over time.</p>
+
+<p>For a more egregious example, we visit the realm of computer science. For reference, USACO Platinum is roughly the top 200 pre-college competitors and is analogous to the USAMO; USACO Silver, while invitational, is roughly comparable to the AMC 12 in terms of difficulty.</p>
+
+<p>The <a href="http://usaco.org/index.php?page=viewproblem2&amp;cpid=600">following problem</a> appeared in a USACO Platinum contest in January 2016. The techniques used to solve this problem are two-dimensional prefix sums with a sliding window algorithm, and the intuition needed to come up with the solution isn’t particularly difficult.</p>
+
+<p>Meanwhile, look at <a href="http://usaco.org/index.php?page=viewproblem2&amp;cpid=1063">this problem</a> from USACO Silver in December 2020. While the intuition isn’t super difficult here either, the techniques used are similar: two-dimensional prefix sums with coordinate compression and a couple other observations.</p>
+
+<p>So what might be the cause of this difficulty inflation?</p>
+:ET
