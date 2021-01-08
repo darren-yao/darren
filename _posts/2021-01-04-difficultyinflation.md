@@ -9,7 +9,7 @@ It's a well known fact that olympiads get harder over time. The rate of difficul
 
 For example, see Problem 1 from the first International Math Olympiad in 1959.
 
-Prove that this fraction is irreducible for every natural number \\(n\\): \\[ \frac{21n+4}{14n+3} \\]  
+Prove that this fraction is irreducible for every natural number \\(n\\): \\[ \frac{21n+4}{14n+3} \\] 
 
 If you know the Euclidean algorithm, this problem takes about 30 seconds to solve. This is much easier than a midrange AMC 12 question now, and the AMC 12 is an open exam that doesn't require you to be in the top 6 of your country to take it. 
 
