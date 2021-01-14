@@ -1,0 +1,9 @@
+I"�<p>“Divergent series are the invention of the devil, and it is a shame to base on them any demonstration whatsoever” -Niels Henrik Abel</p>
+
+<p>When discussing infinite series, we usually tend to classify them as convergent or divergent. A series \(\sum_{n=0}^{\infty} a_n\) is convergent if \(\lim_{N\to\infty} \sum_{n=0}^{N} a_n\) exists and is finite. A series where the limit doesn’t exist (because it goes off to infinity, or oscillates forever) is considered divergent. For example, the series \(\sum_{n=0}^{\infty} \frac{n}{2^n}\) converges to 2, while \(\sum_{n=0}^{\infty} \frac{1}{n}\) and \(\sum_{n=0}^{\infty} (-1)^n\) are divergent. Normally, in the study of infinite series, divergent series are simply marked off as divergent without any further investigation. However, there exist meaningful ways of assigning values to divergent series, which we will discuss here.</p>
+
+<p>Throughout this page, we’ll use the word <em>evaluating</em> divergent series in reference to any method that assigns a value to a divergent series. Notably, we reserve the word <em>summing</em> of a series to refer only to convergent series.</p>
+
+<h3 id="problems-with-conventional-evaluation-methods">Problems with Conventional Evaluation Methods</h3>
+
+:ET
