@@ -1,5 +1,5 @@
 title: Darren Yao's website
-description: Hi, I'm Darren, currently a senior at Carlmont High School interested in mathematics and computer science.
+description: mathematics, computer science, writing, and content creation.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://darrenyao.com/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Darren Yao # add your name
 author-img: websitepfp.png # add your photo
-about-author: Hi, I'm Darren, currently a senior at Carlmont High School interested in mathematics and computer science. # add description
+about-author: mathematics, computer science, writing, and content creation. # add description
 social-twitter: DarrenYao5
 social-facebook: # add your Facebook handle
 social-github: darren-yao # add your Github handle
