@@ -31,7 +31,7 @@ The first reason is that these contests are simply becoming much more well known
 
 In the math competitions of AMC/AIME, the total number of participants has actually been going down in recent years: 44250 students took the AMC 12A in 2016, 28327 students in 2018, and 24360 students in 2020. So why has the difficulty continued to go up even as the number of competitors dropped? The easiest explanation is that the _number of students who take these contests seriously_ has continued to go up, but less students are being forced to take the exam by their schools. A large number of students who choose not to do math competitions instead participate in the other olympiads. 
 
-It's probably expected that the other major science subject olympiads (physics, chemistry, and biology) are following the same trend as USACO. The USA Biology Olympiad has acquired a reputation for being heavily based around memorization, which unfortunately leads many students to participate in it solely for the purpose of resume-padding for their college applications. But we'll get to this later. 
+It's probably expected that the other major science subject olympiads (physics, chemistry, and biology) are following the same trend as USACO. The USA Biology Olympiad has acquired an unfortunate reputation for being heavily based around memorization, which leads many students to participate in it solely for the sake of acquiring awards. 
 
 ### Olympiad community / culture
 
@@ -45,4 +45,8 @@ Anyway, all of this explains the impact of students' environment on contest part
 
 As the number of participants increases, so does the number and quality of training resources for these olympiads. The Art of Problem Solving books are the gold standard for math competition prep, while Physics has HRK and Morin, and Biology has the Campbell textbook. As more students study off these well-known resources, the contest problems become less about pure knowledge of the subject and more about intuition and problem-solving. 
 
-This also reduces student attrition during the studying process. USACO is the best example of this: without good resources, many students got frustrated and quit early, often as early as their first problem when they couldn't figure out how to use file input/output. It's too early to tell what impact the new resources have had on USACO's difficulty, but the second derivative of contest difficulty is positive, which seems to indicate that those of us creating studying resources have done a good job.)
+This also reduces student attrition during the studying process. USACO is the best example of this: without good resources, many students got frustrated and quit early, often as early as their first problem when they couldn't figure out how to use file input/output. It's too early to tell what impact the new resources have had on USACO's difficulty, but the second derivative of contest difficulty is positive, which seems to indicate that those of us creating educational resources for these contests have done a good job.
+
+### More pressure to succeed
+
+I've noticed that the younger generation of olympiad participants are driven much more by scores and measurable awards than their predecessors. This positive feedback loop is not particularly surprising, because as contest difficulty continues to increase, students must work harder to attain the same results as their older siblings, friends, and mentors.
